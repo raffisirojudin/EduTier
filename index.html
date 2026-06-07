@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduTier — Kuis Sekolah Interaktif</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ==================== HALAMAN UTAMA ==================== -->
+    <div id="page-home" class="page active">
+      <div class="bg-blob blob1"></div>
+      <div class="bg-blob blob2"></div>
+      <div class="bg-blob blob3"></div>
+
+      <header class="home-header">
+        <div class="logo">
+          <span class="logo-icon">🎓</span>
+          <div>
+            <h1>EduTier</h1>
+            <p>Kuis Sekolah Interaktif</p>
+          </div>
+        </div>
+        <div class="header-badge">Belajar Lebih Seru!</div>
+      </header>
+
+      <main class="home-main">
+        <div class="section-label">Pilih Kategori</div>
+        <div class="category-grid">
+          <button
+            class="category-card"
+            data-kategori="Matematika"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">🔢</span>
+            <span class="card-title">Matematika</span>
+            <span class="card-subtitle">Angka & Logika</span>
+            <div class="card-shine"></div>
+          </button>
+          <button
+            class="category-card"
+            data-kategori="Sains"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">🔬</span>
+            <span class="card-title">Sains</span>
+            <span class="card-subtitle">Alam & Ilmu</span>
+            <div class="card-shine"></div>
+          </button>
+          <button
+            class="category-card"
+            data-kategori="Sejarah"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">🏛️</span>
+            <span class="card-title">Sejarah</span>
+            <span class="card-subtitle">Peristiwa & Tokoh</span>
+            <div class="card-shine"></div>
+          </button>
+          <button
+            class="category-card"
+            data-kategori="Bahasa Inggris"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">🗣️</span>
+            <span class="card-title">Bahasa Inggris</span>
+            <span class="card-subtitle">Grammar & Vocab</span>
+            <div class="card-shine"></div>
+          </button>
+          <button
+            class="category-card"
+            data-kategori="Teknologi"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">💻</span>
+            <span class="card-title">Teknologi</span>
+            <span class="card-subtitle">Komputer & IT</span>
+            <div class="card-shine"></div>
+          </button>
+          <button
+            class="category-card"
+            data-kategori="Olahraga"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">&#127939;</span>
+            <span class="card-title">Olahraga</span>
+            <span class="card-subtitle">Sport & Kesehatan</span>
+            <div class="card-shine"></div>
+          </button>
+          <button
+            class="category-card"
+            data-kategori="Agama Islam"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">&#128332;</span>
+            <span class="card-title">Agama Islam</span>
+            <span class="card-subtitle">Ibadah & Akhlak</span>
+            <div class="card-shine"></div>
+          </button>
+          <button
+            class="category-card"
+            data-kategori="Geografi"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">&#127757;</span>
+            <span class="card-title">Geografi</span>
+            <span class="card-subtitle">Bumi & Wilayah</span>
+            <div class="card-shine"></div>
+          </button>
+        </div>
+
+        <div class="jenjang-section" id="jenjang-section">
+          <div class="section-label">Pilih Jenjang</div>
+          <div class="jenjang-options">
+            <label class="jenjang-card" data-jenjang="SD">
+              <input
+                type="radio"
+                name="jenjang"
+                value="SD"
+                onchange="pilihJenjang(this)"
+              />
+              <span class="jenjang-emoji">🌱</span>
+              <span class="jenjang-name">SD</span>
+              <span class="jenjang-level">Mudah</span>
+            </label>
+            <label class="jenjang-card" data-jenjang="SMP">
+              <input
+                type="radio"
+                name="jenjang"
+                value="SMP"
+                onchange="pilihJenjang(this)"
+              />
+              <span class="jenjang-emoji">🌿</span>
+              <span class="jenjang-name">SMP</span>
+              <span class="jenjang-level">Sedang</span>
+            </label>
+            <label class="jenjang-card" data-jenjang="SMA">
+              <input
+                type="radio"
+                name="jenjang"
+                value="SMA"
+                onchange="pilihJenjang(this)"
+              />
+              <span class="jenjang-emoji">🌳</span>
+              <span class="jenjang-name">SMA</span>
+              <span class="jenjang-level">Sulit</span>
+            </label>
+          </div>
+        </div>
+
+        <button class="btn-mulai" id="btn-mulai" disabled onclick="mulaiKuis()">
+          <span class="btn-text">Mulai Kuis</span>
+          <span class="btn-arrow">→</span>
+        </button>
+
+        <div id="notif-kosong" class="notif-kosong hidden">
+          <span>⚠️</span> Maaf, kuis untuk tier ini sedang dalam penyusunan.
+        </div>
+      </main>
+    </div>
+
+    <!-- ==================== HALAMAN KUIS ==================== -->
+    <div id="page-kuis" class="page">
+      <div class="kuis-header">
+        <button class="btn-back" onclick="kembaliKeHome()">← Kembali</button>
+        <div class="kuis-meta">
+          <span id="kuis-kategori-label" class="meta-kategori"></span>
+          <span id="kuis-jenjang-label" class="meta-jenjang"></span>
+        </div>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-track">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="progress-text" id="progress-text">Soal 1 dari 5</div>
+      </div>
+
+      <div class="soal-container">
+        <div class="soal-number" id="soal-number">01</div>
+        <div class="soal-box" id="soal-box">
+          <p id="pertanyaan-text"></p>
+        </div>
+        <div class="pilihan-grid" id="pilihan-grid">
+          <!-- Tombol jawaban akan di-inject JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== HALAMAN HASIL ==================== -->
+    <div id="page-hasil" class="page">
+      <div class="bg-blob blob1"></div>
+      <div class="bg-blob blob2"></div>
+
+      <div class="hasil-container">
+        <div class="hasil-trophy" id="hasil-trophy">🏆</div>
+        <div class="hasil-title" id="hasil-title">Luar Biasa!</div>
+
+        <div class="skor-display">
+          <div class="skor-circle">
+            <svg viewBox="0 0 120 120" class="skor-ring">
+              <circle cx="60" cy="60" r="52" class="ring-bg" />
+              <circle cx="60" cy="60" r="52" class="ring-fill" id="ring-fill" />
+            </svg>
+            <div class="skor-inner">
+              <span class="skor-angka" id="skor-angka">0</span>
+              <span class="skor-dari">/ 100</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skor-detail">
+          <div class="detail-item">
+            <span class="detail-icon">✅</span>
+            <span class="detail-label">Benar</span>
+            <span class="detail-val" id="detail-benar">0</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-icon">❌</span>
+            <span class="detail-label">Salah</span>
+            <span class="detail-val" id="detail-salah">0</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-icon">📝</span>
+            <span class="detail-label">Total Soal</span>
+            <span class="detail-val" id="detail-total">0</span>
+          </div>
+        </div>
+
+        <p class="pesan-feedback" id="pesan-feedback"></p>
+
+        <button class="btn-reset" onclick="resetKuis()">🔄 Coba Lagi</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
