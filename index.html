@@ -13,8 +13,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- ==================== LOADING SCREEN ==================== -->
+    <div id="loading-screen">
+      <div class="loading-content">
+        <div class="loading-logo">
+          <span class="loading-icon">🎓</span>
+          <h1 class="loading-title">EduTier</h1>
+        </div>
+        <div class="loading-bar-wrap">
+          <div class="loading-bar" id="loading-bar"></div>
+        </div>
+        <p class="loading-text" id="loading-text">Memuat soal...</p>
+      </div>
+    </div>
+
+    <!-- Overlay transisi halaman -->
+    <div id="page-overlay"></div>
+
     <!-- ==================== HALAMAN UTAMA ==================== -->
-    <div id="page-home" class="page active">
+    <div id="page-home" class="page">
       <div class="bg-blob blob1"></div>
       <div class="bg-blob blob2"></div>
       <div class="bg-blob blob3"></div>
@@ -113,6 +130,46 @@
             <span class="card-subtitle">Bumi & Wilayah</span>
             <div class="card-shine"></div>
           </button>
+          <button
+            class="category-card"
+            data-kategori="PKn"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">🏛️</span>
+            <span class="card-title">PKn</span>
+            <span class="card-subtitle">Kewarganegaraan</span>
+            <div class="card-shine"></div>
+          </button>
+          <button
+            class="category-card"
+            data-kategori="Bahasa Indonesia"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">📖</span>
+            <span class="card-title">Bhs. Indonesia</span>
+            <span class="card-subtitle">Bahasa & Sastra</span>
+            <div class="card-shine"></div>
+          </button>
+          <button
+            class="category-card"
+            data-kategori="Astronomi"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">🔭</span>
+            <span class="card-title">Astronomi</span>
+            <span class="card-subtitle">Luar Angkasa</span>
+            <div class="card-shine"></div>
+          </button>
+          <button
+            class="category-card"
+            data-kategori="Psikologi"
+            onclick="pilihKategori(this)"
+          >
+            <span class="card-emoji">🧠</span>
+            <span class="card-title">Psikologi</span>
+            <span class="card-subtitle">Pikiran & Perilaku</span>
+            <div class="card-shine"></div>
+          </button>
         </div>
 
         <div class="jenjang-section" id="jenjang-section">
@@ -189,6 +246,24 @@
         </div>
         <div class="pilihan-grid" id="pilihan-grid">
           <!-- Tombol jawaban akan di-inject JS -->
+        </div>
+
+        <!-- Panel Breakdown Jawaban -->
+        <div class="breakdown-panel" id="breakdown-panel">
+          <div class="breakdown-header">
+            <span class="breakdown-icon" id="breakdown-icon">✅</span>
+            <span class="breakdown-judul" id="breakdown-judul"
+              >Jawaban Kamu Benar!</span
+            >
+          </div>
+          <div class="breakdown-pilihan" id="breakdown-pilihan"></div>
+          <div class="breakdown-penjelasan-wrap">
+            <span class="breakdown-label-penjelasan">💡 Penjelasan</span>
+            <p class="breakdown-penjelasan" id="breakdown-penjelasan"></p>
+          </div>
+          <button class="btn-lanjut" onclick="lanjutSoal()">
+            Lanjut <span>→</span>
+          </button>
         </div>
       </div>
     </div>
