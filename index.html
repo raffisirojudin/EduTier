@@ -32,10 +32,6 @@
 
     <!-- ==================== HALAMAN UTAMA ==================== -->
     <div id="page-home" class="page">
-      <div class="bg-blob blob1"></div>
-      <div class="bg-blob blob2"></div>
-      <div class="bg-blob blob3"></div>
-
       <header class="home-header">
         <div class="logo">
           <span class="logo-icon">🎓</span>
@@ -230,6 +226,14 @@
           <span id="kuis-kategori-label" class="meta-kategori"></span>
           <span id="kuis-jenjang-label" class="meta-jenjang"></span>
         </div>
+        <button
+          class="btn-mute"
+          id="btn-mute"
+          onclick="toggleMute()"
+          title="Mute/Unmute"
+        >
+          🔊
+        </button>
       </div>
 
       <div class="progress-wrap">
@@ -270,9 +274,6 @@
 
     <!-- ==================== HALAMAN HASIL ==================== -->
     <div id="page-hasil" class="page">
-      <div class="bg-blob blob1"></div>
-      <div class="bg-blob blob2"></div>
-
       <div class="hasil-container">
         <div class="hasil-trophy" id="hasil-trophy">🏆</div>
         <div class="hasil-title" id="hasil-title">Luar Biasa!</div>
@@ -315,5 +316,116 @@
     </div>
 
     <script src="script.js"></script>
+    <!-- Tombol Instagram -->
+    <div class="ig-wrapper">
+      <button class="ig-btn" onclick="toggleIgDropdown(event)">
+        <span>📸</span> Instagram Kami
+        <span class="ig-chevron" id="ig-chevron">▾</span>
+      </button>
+      <div class="ig-dropdown" id="ig-dropdown">
+        <a
+          href="https://www.instagram.com/yapenhasbl/?__pwa=1#"
+          target="_blank"
+          class="ig-item"
+        >
+          <div class="ig-separator">🏫 Akun Sekolah</div>
+          <!-- ← ganti huruf inisial -->
+          <div>
+            <div class="ig-name">SMK Boedi Luhur</div>
+            <div class="ig-handle">Sekolah Terbaik Kita</div>
+          </div>
+          <span class="ig-arrow">⏩</span>
+        </a>
+        <a
+          href="https://www.instagram.com/the_powertkj_1/?__pwa=1#"
+          target="_blank"
+          class="ig-item"
+        >
+          <div class="ig-separator">🎒 Akun Kelas</div>
+          <!-- ← ganti huruf inisial -->
+          <div>
+            <div class="ig-name">10 TKJ 1</div>
+            <div class="ig-handle">Kelas Kita Tercinta</div>
+          </div>
+          <span class="ig-arrow">⏩</span>
+        </a>
+        <a
+          href="https://www.instagram.com/sozudigi/?__pwa=1#"
+          target="_blank"
+          class="ig-item"
+        >
+          <span class="ig-avatar">💻</span>
+          <div>
+            <div class="ig-name">Rafi Sirojudin</div>
+            <div class="ig-handle">Front-End Developer</div>
+          </div>
+          <span class="ig-arrow">↗</span>
+        </a>
+        <a
+          href="https://www.instagram.com/1007nvl?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank"
+          class="ig-item"
+        >
+          <span class="ig-avatar">⚙️</span>
+          <div>
+            <div class="ig-name">Nauval Rizqulloh</div>
+            <div class="ig-handle">Back-End Developer</div>
+          </div>
+          <span class="ig-arrow">↗</span>
+        </a>
+        <a
+          href="https://www.instagram.com/drvvazydn/?utm_source=ig_web_button_share_sheet"
+          target="_blank"
+          class="ig-item"
+        >
+          <span class="ig-avatar">🎨</span>
+          <!-- ← ganti huruf inisial -->
+          <div>
+            <div class="ig-name">Darva Ahmad Jaidan</div>
+            <div class="ig-handle">UI/UX Designer</div>
+          </div>
+          <span class="ig-arrow">↗</span>
+          <a
+            href="https://www.instagram.com/snia_agtina/?utm_source=ig_web_button_share_sheet"
+            target="_blank"
+            class="ig-item"
+          >
+            <span class="ig-avatar">📝</span>
+            <!-- ← ganti huruf inisial -->
+            <div>
+              <div class="ig-name">Sania Augustina</div>
+              <div class="ig-handle">Spesialis Bank Soal</div>
+            </div>
+            <span class="ig-arrow">↗</span>
+          </a>
+          <a
+            href="https://www.instagram.com/ali_willdann/?__pwa=1#"
+            target="_blank"
+            class="ig-item"
+          >
+            <span class="ig-avatar">🚀</span>
+            <!-- ← ganti huruf inisial -->
+            <div>
+              <div class="ig-name">Wildan Ali</div>
+              <div class="ig-handle">Web Hosting</div>
+            </div>
+            <span class="ig-arrow">↗</span>
+          </a>
+          <a
+            href="https://www.instagram.com/pacarpaji22/?utm_source=ig_web_button_share_sheet"
+            target="_blank"
+            class="ig-item"
+          >
+            <span class="ig-avatar">🕵️‍♂️</span>
+            <!-- ← ganti huruf inisial -->
+            <div>
+              <div class="ig-name">Hana Zaskia</div>
+              <div class="ig-handle">Web Tester</div>
+            </div>
+            <span class="ig-arrow">↗</span>
+          </a>
+        </a>
+      </div>
+    </div>
   </body>
 </html>
