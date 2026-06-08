@@ -2378,6 +2378,115 @@ const bankSoal = {
   },
 };
 
+// ===== SOUND EFFECTS (Web Audio API) =====
+let audioCtx = null;
+
+function getAudioCtx() {
+  if (!audioCtx)
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  return audioCtx;
+}
+
+let isMuted = false;
+
+function toggleMute() {
+  isMuted = !isMuted;
+  document.getElementById("btn-mute").textContent = isMuted ? "🔇" : "🔊";
+}
+
+function bunyikanBenar() {
+  if (isMuted) return;
+  try {
+    const ctx = getAudioCtx();
+    // Nada C5 → E5 → G5 (akord C mayor naik)
+    const nada = [523.25, 659.25, 783.99];
+    nada.forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(freq, ctx.currentTime + i * 0.12);
+
+      gain.gain.setValueAtTime(0, ctx.currentTime + i * 0.12);
+      gain.gain.linearRampToValueAtTime(
+        0.18,
+        ctx.currentTime + i * 0.12 + 0.02,
+      );
+      gain.gain.exponentialRampToValueAtTime(
+        0.001,
+        ctx.currentTime + i * 0.12 + 0.3,
+      );
+
+      osc.start(ctx.currentTime + i * 0.12);
+      osc.stop(ctx.currentTime + i * 0.12 + 0.3);
+    });
+  } catch (e) {}
+}
+
+function bunyikanSalah() {
+  if (isMuted) return;
+  try {
+    const ctx = getAudioCtx();
+    // Nada E4 → C#4 turun (terasa "salah")
+    const nada = [329.63, 277.18];
+    nada.forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.type = "sawtooth";
+      osc.frequency.setValueAtTime(freq, ctx.currentTime + i * 0.15);
+
+      gain.gain.setValueAtTime(0, ctx.currentTime + i * 0.15);
+      gain.gain.linearRampToValueAtTime(
+        0.12,
+        ctx.currentTime + i * 0.15 + 0.02,
+      );
+      gain.gain.exponentialRampToValueAtTime(
+        0.001,
+        ctx.currentTime + i * 0.15 + 0.25,
+      );
+
+      osc.start(ctx.currentTime + i * 0.15);
+      osc.stop(ctx.currentTime + i * 0.15 + 0.25);
+    });
+  } catch (e) {}
+}
+
+function bunyikanSelesai() {
+  if (isMuted) return;
+  try {
+    const ctx = getAudioCtx();
+    // Fanfare kecil C5-E5-G5-C6
+    const nada = [523.25, 659.25, 783.99, 1046.5];
+    nada.forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(freq, ctx.currentTime + i * 0.15);
+
+      gain.gain.setValueAtTime(0, ctx.currentTime + i * 0.15);
+      gain.gain.linearRampToValueAtTime(
+        0.15,
+        ctx.currentTime + i * 0.15 + 0.02,
+      );
+      gain.gain.exponentialRampToValueAtTime(
+        0.001,
+        ctx.currentTime + i * 0.15 + 0.4,
+      );
+
+      osc.start(ctx.currentTime + i * 0.15);
+      osc.stop(ctx.currentTime + i * 0.15 + 0.4);
+    });
+  } catch (e) {}
+}
+
 // ===== FUNGSI ACAK SOAL =====
 function acakSoal(arr) {
   return [...arr].sort(() => Math.random() - 0.5);
@@ -2507,12 +2616,14 @@ function prosesJawaban(btnDiklik, jawabanPilih, jawabanKunci, penjelasan) {
     btnDiklik.classList.add("benar");
     skorSaatIni += 10;
     jawabanBenar++;
+    bunyikanBenar();
   } else {
     btnDiklik.classList.add("salah");
     semuaTombol.forEach((btn) => {
       const teks = btn.querySelector("span:last-child").textContent;
       if (teks === jawabanKunci) btn.classList.add("benar");
     });
+    bunyikanSalah();
   }
 
   // Tampilkan panel breakdown setelah menjawab
@@ -2570,6 +2681,7 @@ function tutupBreakdown() {
 // ===== TAMPILKAN HASIL =====
 function tampilkanHasil() {
   tampilkanHalaman("page-hasil");
+  bunyikanSelesai();
   const total = soalAktif.length;
   const salah = total - jawabanBenar;
   const nilaiAkhir = Math.round((jawabanBenar / total) * 100);
@@ -2718,4 +2830,22 @@ document.addEventListener("DOMContentLoaded", () => {
   const fontSiap = document.fonts ? document.fonts.ready : Promise.resolve();
 
   Promise.all([minDurasi, fontSiap]).then(selesai);
+});
+// ===== INSTAGRAM DROPDOWN =====
+function toggleIgDropdown(e) {
+  e.stopPropagation();
+  const dropdown = document.getElementById("ig-dropdown");
+  const chevron = document.getElementById("ig-chevron");
+  dropdown.classList.toggle("show");
+  chevron.classList.toggle("open");
+}
+
+// Klik di luar dropdown = tutup
+document.addEventListener("click", () => {
+  const dropdown = document.getElementById("ig-dropdown");
+  const chevron = document.getElementById("ig-chevron");
+  if (dropdown) {
+    dropdown.classList.remove("show");
+    chevron.classList.remove("open");
+  }
 });
