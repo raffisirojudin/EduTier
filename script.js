@@ -2376,6 +2376,841 @@ const bankSoal = {
       },
     ],
   },
+  Fisika: {
+    SD: [
+      {
+        pertanyaan: "Gaya yang menarik benda ke pusat bumi disebut...",
+        pilihan: ["Gesek", "Gravitasi", "Magnet", "Listrik"],
+        jawaban: "Gravitasi",
+        penjelasan:
+          "Gravitasi adalah gaya tarik yang dimiliki setiap benda bermassa — bumi menarik semua benda di permukaannya ke bawah. Itulah mengapa bola yang dilempar ke atas selalu jatuh kembali. Gravitasi bumi = 9,8 m/s². Isaac Newton merumuskan hukum gravitasi setelah mengamati buah apel jatuh.",
+      },
+      {
+        pertanyaan:
+          "Benda yang dapat menghantarkan panas dengan baik disebut...",
+        pilihan: ["Isolator", "Konduktor", "Kapasitor", "Resistor"],
+        jawaban: "Konduktor",
+        penjelasan:
+          "Konduktor = bahan yang mudah menghantarkan panas/listrik karena elektron-elektronnya bebas bergerak. Contoh: besi, tembaga, aluminium. Isolator = bahan yang sulit menghantarkan panas/listrik. Contoh: kayu, plastik, karet. Itulah mengapa gagang wajan dibuat dari plastik/kayu.",
+      },
+      {
+        pertanyaan: "Perubahan energi yang terjadi pada kincir angin adalah...",
+        pilihan: [
+          "Listrik → Gerak",
+          "Gerak → Listrik",
+          "Panas → Gerak",
+          "Kimia → Listrik",
+        ],
+        jawaban: "Gerak → Listrik",
+        penjelasan:
+          "Kincir angin mengubah energi gerak (kinetik angin) menjadi energi listrik melalui generator. Ini adalah prinsip pembangkit listrik tenaga angin (PLTB). Sebaliknya, kipas angin mengubah energi listrik menjadi gerak.",
+      },
+      {
+        pertanyaan: "Satuan kecepatan dalam sistem SI adalah...",
+        pilihan: ["km/jam", "m/s", "cm/menit", "mil/jam"],
+        jawaban: "m/s",
+        penjelasan:
+          "Dalam Sistem Internasional (SI), satuan kecepatan adalah meter per sekon (m/s). Satuan lain seperti km/jam umum digunakan sehari-hari tapi bukan satuan SI baku. Konversi: 1 m/s = 3,6 km/jam.",
+      },
+      {
+        pertanyaan:
+          "Jenis pesawat sederhana yang digunakan untuk memindahkan beban berat dengan lebih mudah adalah...",
+        pilihan: ["Tuas/Pengungkit", "Termometer", "Barometer", "Kalorimeter"],
+        jawaban: "Tuas/Pengungkit",
+        penjelasan:
+          "Tuas (pengungkit) adalah pesawat sederhana berupa batang kaku yang bertumpu pada titik tumpu (fulcrum) untuk mempermudah memindahkan beban. Contoh: jungkat-jungkit, gunting, pembuka botol. Pesawat sederhana lain: bidang miring, katrol, roda dan poros.",
+      },
+      {
+        pertanyaan: "Bunyi tidak dapat merambat melalui...",
+        pilihan: ["Air", "Udara", "Benda padat", "Ruang hampa/vakum"],
+        jawaban: "Ruang hampa/vakum",
+        penjelasan:
+          "Bunyi adalah gelombang mekanik yang membutuhkan medium (zat perantara) untuk merambat. Di ruang hampa (vakum) tidak ada partikel, sehingga bunyi tidak bisa merambat. Itulah mengapa di luar angkasa tidak ada suara meski terjadi ledakan besar.",
+      },
+      {
+        pertanyaan:
+          "Cermin yang permukaan pantulnya melengkung ke dalam disebut cermin...",
+        pilihan: ["Datar", "Cembung", "Cekung", "Prisma"],
+        jawaban: "Cekung",
+        penjelasan:
+          "Cermin cekung = permukaan pantul melengkung ke dalam (seperti mangkuk). Sifat: mengumpulkan cahaya (konvergen), bisa memperbesar bayangan. Digunakan pada: reflektor lampu sorot, teleskop, sendok bagian dalam. Cermin cembung = melengkung keluar, menyebarkan cahaya, digunakan di kaca spion.",
+      },
+    ],
+    SMP: [
+      {
+        pertanyaan: "Hukum Newton II menyatakan bahwa gaya sama dengan...",
+        pilihan: [
+          "massa × kecepatan",
+          "massa × percepatan",
+          "massa × jarak",
+          "massa × waktu",
+        ],
+        jawaban: "massa × percepatan",
+        penjelasan:
+          "Hukum Newton II: F = m × a. Gaya (F) berbanding lurus dengan massa (m) dan percepatan (a). Semakin besar gaya yang diberikan, semakin besar percepatannya. Semakin besar massanya, semakin kecil percepatannya untuk gaya yang sama.",
+      },
+      {
+        pertanyaan: "Tekanan didefinisikan sebagai...",
+        pilihan: [
+          "Gaya × Luas",
+          "Gaya / Luas",
+          "Massa × Luas",
+          "Massa / Volume",
+        ],
+        jawaban: "Gaya / Luas",
+        penjelasan:
+          "Tekanan (P) = Gaya (F) / Luas bidang (A). Satuan: Pascal (Pa) = N/m². Inilah mengapa pisau yang tajam (luas kecil) lebih mudah memotong — gaya yang sama menghasilkan tekanan lebih besar pada luas yang lebih kecil.",
+      },
+      {
+        pertanyaan:
+          "Gelombang yang tidak memerlukan medium untuk merambat disebut gelombang...",
+        pilihan: ["Mekanik", "Transversal", "Longitudinal", "Elektromagnetik"],
+        jawaban: "Elektromagnetik",
+        penjelasan:
+          "Gelombang elektromagnetik (cahaya, radio, sinar X, dll) dapat merambat tanpa medium — bisa melewati ruang hampa. Sebaliknya, gelombang mekanik (bunyi, gelombang air) memerlukan medium. Itulah mengapa cahaya Matahari bisa sampai ke Bumi melewati ruang hampa antariksa.",
+      },
+      {
+        pertanyaan:
+          "Jika sebuah benda mengapung di air, berarti massa jenisnya...",
+        pilihan: [
+          "Lebih besar dari air",
+          "Sama dengan air",
+          "Lebih kecil dari air",
+          "Tidak ada hubungannya",
+        ],
+        jawaban: "Lebih kecil dari air",
+        penjelasan:
+          "Hukum Archimedes: benda mengapung jika massa jenisnya LEBIH KECIL dari fluida (ρ benda < ρ fluida). Air memiliki massa jenis 1000 kg/m³. Kayu (~600 kg/m³) mengapung, besi (~7900 kg/m³) tenggelam. Kapal besi bisa mengapung karena bentuknya membuat massa jenis rata-ratanya < air.",
+      },
+      {
+        pertanyaan:
+          "Alat yang digunakan untuk mengukur kuat arus listrik adalah...",
+        pilihan: ["Voltmeter", "Termometer", "Amperemeter", "Barometer"],
+        jawaban: "Amperemeter",
+        penjelasan:
+          "Amperemeter mengukur kuat arus listrik (satuan: Ampere). Voltmeter mengukur tegangan listrik (Volt). Ohmmeter mengukur hambatan (Ohm). Multimeter bisa mengukur ketiganya. Amperemeter dipasang SERI dalam rangkaian, voltmeter dipasang PARALEL.",
+      },
+      {
+        pertanyaan: "Pembiasan cahaya terjadi karena cahaya...",
+        pilihan: [
+          "Berubah warna saat menembus benda",
+          "Berubah kecepatan saat memasuki medium berbeda",
+          "Dipantulkan oleh permukaan benda",
+          "Diserap oleh medium",
+        ],
+        jawaban: "Berubah kecepatan saat memasuki medium berbeda",
+        penjelasan:
+          "Pembiasan (refraksi) terjadi saat cahaya melewati batas dua medium berbeda kerapatannya, menyebabkan cahaya berbelok karena kecepatannya berubah. Contoh: sedotan terlihat patah di dalam air, lensa kacamata, pelangi (pembiasan + dispersi di tetes air).",
+      },
+      {
+        pertanyaan: "Energi kinetik sebuah benda bergantung pada...",
+        pilihan: [
+          "Massa dan ketinggian",
+          "Massa dan kecepatan",
+          "Kecepatan dan ketinggian",
+          "Massa dan suhu",
+        ],
+        jawaban: "Massa dan kecepatan",
+        penjelasan:
+          "Energi Kinetik (Ek) = ½mv². Ek bergantung pada massa (m) dan kecepatan (v). Jika kecepatan digandakan, Ek menjadi 4× lipat (karena v²). Energi Potensial = mgh (bergantung massa dan ketinggian). Truk besar yang melaju cepat memiliki Ek sangat besar — itulah mengapa berbahaya.",
+      },
+    ],
+    SMA: [
+      {
+        pertanyaan:
+          "Hukum Ohm menyatakan bahwa arus listrik berbanding lurus dengan...",
+        pilihan: ["Hambatan", "Daya", "Tegangan", "Frekuensi"],
+        jawaban: "Tegangan",
+        penjelasan:
+          "Hukum Ohm: I = V/R. Arus (I) berbanding lurus dengan tegangan (V) dan berbanding terbalik dengan hambatan (R). Jika tegangan dinaikkan 2×, arus naik 2×. Jika hambatan dinaikkan 2×, arus turun 2×. Georg Ohm menemukan hukum ini pada 1827.",
+      },
+      {
+        pertanyaan:
+          "Dalam gerak harmonik sederhana, periode bandul sederhana bergantung pada...",
+        pilihan: [
+          "Massa bandul",
+          "Amplitudo ayunan",
+          "Panjang tali dan gravitasi",
+          "Kecepatan awal",
+        ],
+        jawaban: "Panjang tali dan gravitasi",
+        penjelasan:
+          "Periode bandul sederhana: T = 2π√(L/g). T bergantung pada panjang tali (L) dan percepatan gravitasi (g) — TIDAK bergantung pada massa bandul atau amplitudo (untuk amplitudo kecil). Inilah mengapa jam bandul dapat digunakan sebagai pengukur waktu yang konsisten.",
+      },
+      {
+        pertanyaan:
+          "Efek fotolistrik membuktikan bahwa cahaya bersifat sebagai...",
+        pilihan: ["Gelombang", "Partikel (foton)", "Plasma", "Medan magnet"],
+        jawaban: "Partikel (foton)",
+        penjelasan:
+          "Efek fotolistrik (Albert Einstein, 1905): cahaya yang mengenai permukaan logam dapat melepaskan elektron — membuktikan cahaya bersifat partikel (foton). Einstein mendapat Nobel Fisika 1921 atas penemuan ini, bukan atas teori relativitas. Dualisme gelombang-partikel adalah dasar fisika kuantum.",
+      },
+      {
+        pertanyaan: "Transformator step-up digunakan untuk...",
+        pilihan: [
+          "Menurunkan tegangan",
+          "Menaikkan tegangan",
+          "Menyearahkan arus",
+          "Menstabilkan arus",
+        ],
+        jawaban: "Menaikkan tegangan",
+        penjelasan:
+          "Transformator step-up: jumlah lilitan sekunder (N₂) > lilitan primer (N₁), sehingga tegangan output > input. Digunakan di pembangkit listrik untuk menaikkan tegangan sebelum ditransmisikan (tegangan tinggi = rugi daya kecil). Step-down sebaliknya — menurunkan tegangan untuk digunakan di rumah.",
+      },
+      {
+        pertanyaan:
+          "Persamaan relativitas Einstein E = mc² menyatakan bahwa...",
+        pilihan: [
+          "Energi sama dengan massa dikali kecepatan",
+          "Massa dapat diubah menjadi energi",
+          "Cahaya selalu bergerak lebih cepat dari massa",
+          "Energi berbanding terbalik dengan massa",
+        ],
+        jawaban: "Massa dapat diubah menjadi energi",
+        penjelasan:
+          "E = mc² (Einstein, 1905) menyatakan bahwa massa dan energi adalah dua bentuk hal yang sama — massa dapat diubah menjadi energi dan sebaliknya. c = kecepatan cahaya (3×10⁸ m/s). Bahkan massa sangat kecil menghasilkan energi sangat besar (c² sangat besar). Inilah prinsip bom nuklir dan reaktor nuklir.",
+      },
+      {
+        pertanyaan:
+          "Pada peluruhan radioaktif, inti atom yang tidak stabil memancarkan radiasi untuk...",
+        pilihan: [
+          "Menambah proton",
+          "Mencapai kestabilan",
+          "Memperbesar massa",
+          "Meningkatkan energi",
+        ],
+        jawaban: "Mencapai kestabilan",
+        penjelasan:
+          "Peluruhan radioaktif terjadi saat inti atom tidak stabil memancarkan partikel/energi untuk mencapai konfigurasi inti yang lebih stabil. Jenis radiasi: alfa (partikel He), beta (elektron/positron), gamma (gelombang elektromagnetik). Dimanfaatkan dalam: kedokteran nuklir, PLTN, penanggalan radioaktif.",
+      },
+      {
+        pertanyaan: "Hukum Termodinamika II menyatakan bahwa...",
+        pilihan: [
+          "Energi tidak dapat diciptakan",
+          "Kalor mengalir dari suhu tinggi ke rendah",
+          "Tekanan gas berbanding lurus suhu",
+          "Entropi selalu berkurang",
+        ],
+        jawaban: "Kalor mengalir dari suhu tinggi ke rendah",
+        penjelasan:
+          "Hukum Termodinamika II (Clausius): kalor secara alami mengalir dari benda bersuhu TINGGI ke benda bersuhu RENDAH — tidak pernah sebaliknya secara spontan. Juga dinyatakan sebagai: entropi total sistem tertutup selalu meningkat. Inilah mengapa es batu yang dimasukkan ke minuman panas tidak bisa panas kembali sendiri.",
+      },
+    ],
+  },
+  Kimia: {
+    SD: [
+      {
+        pertanyaan: "Air tersusun dari unsur hidrogen dan...",
+        pilihan: ["Nitrogen", "Karbon", "Oksigen", "Helium"],
+        jawaban: "Oksigen",
+        penjelasan:
+          "Air (H₂O) tersusun dari 2 atom Hidrogen (H) dan 1 atom Oksigen (O). Rumus H₂O artinya setiap molekul air mengandung 2 atom H dan 1 atom O. Oksigen adalah unsur penting untuk kehidupan — kita menghirupnya saat bernapas.",
+      },
+      {
+        pertanyaan: "Perubahan es menjadi air adalah contoh perubahan...",
+        pilihan: ["Kimia", "Fisika", "Biologi", "Permanen"],
+        jawaban: "Fisika",
+        penjelasan:
+          "Perubahan fisika = perubahan wujud/bentuk tanpa mengubah zat asalnya. Es menjadi air (mencair) hanya mengubah wujud dari padat ke cair, zat tetap H₂O. Perubahan kimia = terbentuk zat baru. Contoh perubahan kimia: kayu terbakar, besi berkarat, roti dipanggang.",
+      },
+      {
+        pertanyaan: "Zat yang rasanya masam dan dapat merusak logam disebut...",
+        pilihan: ["Basa", "Garam", "Asam", "Netral"],
+        jawaban: "Asam",
+        penjelasan:
+          "Asam memiliki sifat: rasa masam, pH < 7, dapat bereaksi dengan logam. Contoh: asam cuka (asam asetat), jeruk (asam sitrat), asam lambung (asam klorida). Basa = rasa pahit/licin, pH > 7. Contoh: sabun, soda kue. Netral = pH 7, contoh air murni.",
+      },
+      {
+        pertanyaan: "Simbol kimia untuk emas adalah...",
+        pilihan: ["Ag", "Fe", "Au", "Cu"],
+        jawaban: "Au",
+        penjelasan:
+          "Au berasal dari bahasa Latin 'Aurum' = emas. Simbol kimia lain: Ag = Perak (Argentum), Fe = Besi (Ferrum), Cu = Tembaga (Cuprum), Na = Natrium/Sodium, K = Kalium/Potassium. Simbol-simbol ini digunakan di seluruh dunia dalam tabel periodik.",
+      },
+      {
+        pertanyaan: "Pernapasan manusia menghasilkan gas...",
+        pilihan: ["Oksigen", "Nitrogen", "Karbon dioksida", "Hidrogen"],
+        jawaban: "Karbon dioksida",
+        penjelasan:
+          "Saat bernapas, kita menghirup O₂ (oksigen) dan menghembuskan CO₂ (karbon dioksida) + uap air. Reaksi: glukosa + O₂ → CO₂ + H₂O + energi. CO₂ yang kita hembuskan diserap tumbuhan untuk fotosintesis — siklus karbon yang saling melengkapi.",
+      },
+      {
+        pertanyaan:
+          "Bahan yang digunakan untuk membuat gelembung sabun adalah campuran air dan...",
+        pilihan: ["Gula", "Garam", "Detergen/sabun", "Cuka"],
+        jawaban: "Detergen/sabun",
+        penjelasan:
+          "Sabun/detergen memiliki molekul unik dengan ujung yang suka air (hidrofilik) dan ujung yang suka minyak (hidrofobik). Saat dikocok dengan air, terbentuk lapisan tipis yang mengandung udara — itulah gelembung sabun. Tegangan permukaan air berkurang dengan adanya sabun.",
+      },
+      {
+        pertanyaan:
+          "Proses pembuatan garam dari air laut menggunakan energi...",
+        pilihan: ["Angin", "Matahari", "Hujan", "Petir"],
+        jawaban: "Matahari",
+        penjelasan:
+          "Pembuatan garam laut menggunakan proses penguapan — air laut dialirkan ke ladang garam dan diuapkan oleh panas matahari. Air menguap, garam (NaCl) tertinggal. Ini adalah proses fisika (perubahan wujud), bukan reaksi kimia. Garam juga bisa dibuat melalui reaksi asam-basa.",
+      },
+    ],
+    SMP: [
+      {
+        pertanyaan: "Tabel periodik unsur disusun berdasarkan...",
+        pilihan: [
+          "Warna unsur",
+          "Nomor atom (jumlah proton)",
+          "Massa jenis",
+          "Titik didih",
+        ],
+        jawaban: "Nomor atom (jumlah proton)",
+        penjelasan:
+          "Tabel periodik modern (Mendeleev diperbarui Moseley) disusun berdasarkan nomor atom yang meningkat dari kiri ke kanan, atas ke bawah. Nomor atom = jumlah proton dalam inti. Unsur dalam satu golongan (kolom) memiliki sifat kimia mirip karena jumlah elektron valensinya sama.",
+      },
+      {
+        pertanyaan:
+          "Reaksi yang membutuhkan energi panas dari lingkungan disebut reaksi...",
+        pilihan: ["Eksoterm", "Endoterm", "Oksidasi", "Reduksi"],
+        jawaban: "Endoterm",
+        penjelasan:
+          "Endoterm = menyerap energi dari lingkungan (sistem terasa dingin). Contoh: fotosintesis, melarutkan NH₄NO₃ dalam air (dipakai di ice pack). Eksoterm = melepas energi ke lingkungan (sistem terasa panas). Contoh: pembakaran, reaksi asam kuat dengan basa kuat.",
+      },
+      {
+        pertanyaan: "Jumlah proton dalam inti atom disebut...",
+        pilihan: ["Nomor massa", "Nomor atom", "Massa atom", "Valensi"],
+        jawaban: "Nomor atom",
+        penjelasan:
+          "Nomor atom (Z) = jumlah proton di inti atom. Nomor atom menentukan identitas unsur — setiap unsur memiliki nomor atom unik. Nomor massa (A) = jumlah proton + neutron. Contoh: Carbon (C): nomor atom 6 (6 proton), nomor massa 12 (6 proton + 6 neutron).",
+      },
+      {
+        pertanyaan:
+          "Campuran yang komponennya masih dapat dibedakan disebut campuran...",
+        pilihan: ["Homogen", "Heterogen", "Larutan", "Senyawa"],
+        jawaban: "Heterogen",
+        penjelasan:
+          "Campuran heterogen = komponen masih terlihat berbeda/tidak seragam. Contoh: pasir + air, salad buah, es batu + air. Campuran homogen (larutan) = komponen tercampur sempurna, tampak seragam. Contoh: gula + air, udara, alloy. Senyawa = bukan campuran, tapi ikatan kimia (H₂O, NaCl).",
+      },
+      {
+        pertanyaan:
+          "Indikator alami yang dapat digunakan untuk menguji asam-basa adalah...",
+        pilihan: [
+          "Kertas koran",
+          "Air putih",
+          "Ekstrak kubis ungu",
+          "Garam dapur",
+        ],
+        jawaban: "Ekstrak kubis ungu",
+        penjelasan:
+          "Ekstrak kubis ungu (kol ungu) mengandung antosianin — pigmen yang berubah warna tergantung pH: merah/pink di asam, hijau/kuning di basa, ungu di netral. Indikator alami lain: bunga sepatu, kunyit, bit merah. Indikator sintetis: lakmus (merah di asam, biru di basa), fenolftalein.",
+      },
+      {
+        pertanyaan:
+          "Ikatan kimia yang terbentuk karena serah terima elektron disebut ikatan...",
+        pilihan: ["Kovalen", "Logam", "Ion", "Hidrogen"],
+        jawaban: "Ion",
+        penjelasan:
+          "Ikatan ion terbentuk saat satu atom MELEPAS elektron (menjadi ion +/kation) dan atom lain MENERIMA elektron (menjadi ion -/anion). Contoh: NaCl — Na melepas 1 elektron, Cl menerima 1 elektron. Ikatan kovalen = berbagi elektron bersama. Contoh: H₂O, CO₂.",
+      },
+      {
+        pertanyaan:
+          "Gas yang dihasilkan saat logam bereaksi dengan asam adalah...",
+        pilihan: ["Oksigen", "Karbon dioksida", "Hidrogen", "Nitrogen"],
+        jawaban: "Hidrogen",
+        penjelasan:
+          "Reaksi logam + asam → garam + gas hidrogen (H₂). Contoh: Zn + H₂SO₄ → ZnSO₄ + H₂↑. Gas hidrogen dapat diidentifikasi dengan uji nyala — jika didekatkan api akan terdengar bunyi 'pop' kecil karena H₂ mudah terbakar. Bukan semua logam bereaksi dengan asam (emas, platinum tidak).",
+      },
+    ],
+    SMA: [
+      {
+        pertanyaan:
+          "Konfigurasi elektron atom Natrium (Na, nomor atom 11) adalah...",
+        pilihan: ["2,8,1", "2,8,3", "2,9", "3,8"],
+        jawaban: "2,8,1",
+        penjelasan:
+          "Konfigurasi elektron Na (Z=11): kulit K=2, kulit L=8, kulit M=1. Total = 2+8+1 = 11 elektron. Elektron valensi Na = 1 (di kulit terluar). Itulah mengapa Na mudah melepas 1 elektron menjadi Na⁺ dan sangat reaktif. Konfigurasi mengikuti aturan: maks. 2 (kulit K), 8 (L), 18 (M).",
+      },
+      {
+        pertanyaan:
+          "Hukum Avogadro menyatakan bahwa pada suhu dan tekanan sama, gas yang berbeda dengan volume sama...",
+        pilihan: [
+          "Memiliki massa sama",
+          "Memiliki jumlah mol sama",
+          "Memiliki kerapatan sama",
+          "Memiliki tekanan sama",
+        ],
+        jawaban: "Memiliki jumlah mol sama",
+        penjelasan:
+          "Hukum Avogadro: pada T dan P yang sama, volume yang sama dari gas berbeda mengandung jumlah molekul (mol) yang sama. 1 mol = 6,022×10²³ partikel (Bilangan Avogadro). Pada STP (0°C, 1 atm), 1 mol gas apapun menempati volume 22,4 liter.",
+      },
+      {
+        pertanyaan: "Reaksi reduksi-oksidasi (redoks) selalu melibatkan...",
+        pilihan: [
+          "Perpindahan proton",
+          "Perpindahan elektron",
+          "Perpindahan neutron",
+          "Perpindahan foton",
+        ],
+        jawaban: "Perpindahan elektron",
+        penjelasan:
+          "Redoks = transfer elektron. Oksidasi = MELEPAS elektron (bilangan oksidasi naik). Reduksi = MENERIMA elektron (bilangan oksidasi turun). Ingat: OIL RIG (Oxidation Is Loss, Reduction Is Gain of electrons). Baterai, sel surya, respirasi sel, dan fotosintesis semuanya melibatkan reaksi redoks.",
+      },
+      {
+        pertanyaan: "Senyawa organik yang memiliki gugus fungsi -OH disebut...",
+        pilihan: ["Aldehida", "Keton", "Alkohol", "Asam karboksilat"],
+        jawaban: "Alkohol",
+        penjelasan:
+          "Gugus fungsi senyawa organik: -OH = Alkohol (etanol, metanol). -CHO = Aldehida (formaldehida). -CO- = Keton (aseton). -COOH = Asam karboksilat (asam asetat). -COO- = Ester (bau buah-buahan). Alkohol paling dikenal: etanol (C₂H₅OH) dalam minuman beralkohol, metanol (CH₃OH) sangat beracun.",
+      },
+      {
+        pertanyaan:
+          "Laju reaksi kimia dapat dipercepat dengan katalis karena katalis...",
+        pilihan: [
+          "Meningkatkan suhu reaksi",
+          "Menurunkan energi aktivasi",
+          "Menambah konsentrasi reaktan",
+          "Memperbesar volume reaktan",
+        ],
+        jawaban: "Menurunkan energi aktivasi",
+        penjelasan:
+          "Katalis mempercepat reaksi dengan menyediakan jalur reaksi alternatif yang memiliki energi aktivasi lebih rendah — tanpa ikut terpakai dalam reaksi. Enzim adalah katalis biologis. Contoh industri: katalis Fe dalam sintesis amonia (Haber-Bosch), Pt dalam knalpot katalitik mobil.",
+      },
+      {
+        pertanyaan: "Polimer yang terbentuk dari monomer asam amino disebut...",
+        pilihan: ["Karbohidrat", "Lemak", "Protein", "Asam nukleat"],
+        jawaban: "Protein",
+        penjelasan:
+          "Protein = polimer biologis yang tersusun dari monomer asam amino yang dihubungkan oleh ikatan peptida (-CO-NH-). Ada 20 jenis asam amino esensial. Protein memiliki fungsi beragam: enzim (katalisis), antibodi (imunitas), hemoglobin (transport O₂), kolagen (struktur), insulin (hormon).",
+      },
+      {
+        pertanyaan: "pH larutan HCl 0,01 M adalah...",
+        pilihan: ["1", "2", "12", "7"],
+        jawaban: "2",
+        penjelasan:
+          "HCl adalah asam kuat yang terionisasi sempurna: HCl → H⁺ + Cl⁻. Jika [HCl] = 0,01 M = 10⁻² M, maka [H⁺] = 10⁻² M. pH = -log[H⁺] = -log(10⁻²) = 2. Ingat rumus: pH = -log[H⁺]. pH 2 = sangat asam. Untuk basa kuat NaOH 0,01 M: pOH = 2, pH = 14-2 = 12.",
+      },
+    ],
+  },
+  Biologi: {
+    SD: [
+      {
+        pertanyaan:
+          "Proses tumbuhan membuat makanannya sendiri menggunakan cahaya matahari disebut...",
+        pilihan: ["Respirasi", "Fotosintesis", "Transpirasi", "Fermentasi"],
+        jawaban: "Fotosintesis",
+        penjelasan:
+          "Fotosintesis = proses tumbuhan mengubah CO₂ + H₂O + cahaya matahari → glukosa + O₂. Terjadi di kloroplas yang mengandung klorofil (pigmen hijau). Hasilnya: makanan (glukosa) untuk tumbuhan dan oksigen untuk kita. Tanpa fotosintesis, tidak ada makanan dan oksigen di Bumi.",
+      },
+      {
+        pertanyaan: "Hewan yang menyusui anaknya disebut...",
+        pilihan: ["Aves", "Reptilia", "Amfibia", "Mamalia"],
+        jawaban: "Mamalia",
+        penjelasan:
+          "Mamalia (kelas Mammalia) adalah hewan yang menyusui anaknya — betina memiliki kelenjar susu. Ciri lain: berdarah panas, sebagian besar melahirkan (vivipar), tubuh berambut. Contoh: sapi, kuda, paus, kelelawar, manusia. Aves = burung, Reptilia = reptil, Amfibia = katak.",
+      },
+      {
+        pertanyaan:
+          "Bagian tumbuhan yang berfungsi menyerap air dan mineral dari tanah adalah...",
+        pilihan: ["Daun", "Batang", "Akar", "Bunga"],
+        jawaban: "Akar",
+        penjelasan:
+          "Akar berfungsi: menyerap air dan mineral dari tanah, menopang/memperkuat tumbuhan, dan menyimpan cadangan makanan (pada beberapa tumbuhan). Air dan mineral diserap melalui rambut akar, lalu diangkut ke seluruh tumbuhan melalui xilem. Daun = fotosintesis, batang = penopang dan transportasi.",
+      },
+      {
+        pertanyaan: "Tulang dan otot pada manusia berfungsi sebagai sistem...",
+        pilihan: ["Pencernaan", "Pernapasan", "Gerak", "Peredaran darah"],
+        jawaban: "Gerak",
+        penjelasan:
+          "Sistem gerak (muskuloskeletal) terdiri dari tulang (sistem rangka) dan otot. Tulang = penopang dan pelindung organ vital. Otot = menggerakkan tulang melalui kontraksi. Keduanya bekerja sama memungkinkan gerakan tubuh. Sendi adalah titik hubung antar tulang yang memungkinkan gerakan.",
+      },
+      {
+        pertanyaan:
+          "Hewan yang dapat mengubah warna tubuhnya untuk kamuflase adalah...",
+        pilihan: ["Gajah", "Bunglon", "Singa", "Jerapah"],
+        jawaban: "Bunglon",
+        penjelasan:
+          "Bunglon (chameleon) dapat mengubah warna tubuhnya menggunakan sel khusus bernama kromatofor dan iridofor yang mengandung kristal nanoskopik. Perubahan warna bukan hanya untuk kamuflase, tapi juga komunikasi dan pengaturan suhu. Gurita dan cumi-cumi juga bisa mengubah warna kulit.",
+      },
+      {
+        pertanyaan:
+          "Vitamin yang dihasilkan tubuh saat kulit terkena sinar matahari adalah...",
+        pilihan: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+        jawaban: "Vitamin D",
+        penjelasan:
+          "Vitamin D disintesis di kulit saat terpapar sinar UV matahari — satu-satunya vitamin yang diproduksi tubuh sendiri. Fungsi: membantu penyerapan kalsium untuk tulang dan gigi yang kuat. Kekurangan vitamin D menyebabkan rakhitis (tulang lunak) pada anak. Sumber lain: ikan salmon, kuning telur, susu yang difortifikasi.",
+      },
+      {
+        pertanyaan: "Proses keluarnya keringat dari tubuh berguna untuk...",
+        pilihan: [
+          "Menambah berat badan",
+          "Mengatur suhu tubuh",
+          "Mempercepat pertumbuhan",
+          "Menambah energi",
+        ],
+        jawaban: "Mengatur suhu tubuh",
+        penjelasan:
+          "Keringat adalah mekanisme thermoregulasi tubuh. Saat suhu tubuh naik, kelenjar keringat mengeluarkan cairan ke permukaan kulit. Penguapan keringat menyerap panas dari tubuh, mendinginkan kulit. Keringat juga mengeluarkan sedikit sisa metabolisme (garam, urea).",
+      },
+    ],
+    SMP: [
+      {
+        pertanyaan:
+          "Organel sel yang disebut 'pembangkit tenaga' sel adalah...",
+        pilihan: ["Nukleus", "Kloroplas", "Mitokondria", "Ribosom"],
+        jawaban: "Mitokondria",
+        penjelasan:
+          "Mitokondria = 'powerhouse of the cell' — menghasilkan ATP (energi) melalui respirasi seluler aerob. Reaksi: glukosa + O₂ → CO₂ + H₂O + ATP. Sel yang aktif bergerak (otot) memiliki lebih banyak mitokondria. Mitokondria memiliki DNA sendiri — bukti bahwa dulunya ia bakteri simbiosis (teori endosimbion).",
+      },
+      {
+        pertanyaan: "Proses penyerapan sari makanan terjadi di...",
+        pilihan: ["Lambung", "Usus besar", "Usus halus", "Kerongkongan"],
+        jawaban: "Usus halus",
+        penjelasan:
+          "Usus halus (panjang ±6-7 m) adalah tempat utama pencernaan dan PENYERAPAN sari makanan. Permukaannya diperluas oleh vili dan mikrovili (brush border) sehingga luas penyerapannya mencapai ±250 m². Nutrisi diserap masuk ke pembuluh darah dan limfa, lalu dibawa ke seluruh tubuh. Lambung = pencernaan kimiawi/mekanik.",
+      },
+      {
+        pertanyaan:
+          "Jaringan pada tumbuhan yang berfungsi mengangkut air dari akar ke daun adalah...",
+        pilihan: ["Floem", "Epidermis", "Kambium", "Xilem"],
+        jawaban: "Xilem",
+        penjelasan:
+          "Xilem mengangkut air dan mineral dari akar → batang → daun (searah ke atas). Floem mengangkut hasil fotosintesis (gula/sukrosa) dari daun → seluruh bagian tumbuhan (dua arah). Ingat: Xilem = dari bawah ke atas (X = up), Floem = ke semua arah. Keduanya membentuk berkas pembuluh.",
+      },
+      {
+        pertanyaan: "Hormon insulin diproduksi oleh...",
+        pilihan: ["Hati", "Ginjal", "Pankreas", "Tiroid"],
+        jawaban: "Pankreas",
+        penjelasan:
+          "Insulin diproduksi oleh sel beta di pulau Langerhans pankreas. Fungsi: menurunkan kadar glukosa darah dengan mendorong sel menyerap glukosa. Kekurangan insulin atau resistensi insulin menyebabkan Diabetes Mellitus. Pankreas juga menghasilkan glukagon (menaikkan gula darah) dan enzim pencernaan.",
+      },
+      {
+        pertanyaan:
+          "Proses saat tumbuhan melepas uap air melalui stomata disebut...",
+        pilihan: ["Fotosintesis", "Respirasi", "Transpirasi", "Gutasi"],
+        jawaban: "Transpirasi",
+        penjelasan:
+          "Transpirasi = penguapan air dari tumbuhan melalui stomata (di daun) dan kutikula. Fungsi: mendorong naiknya air dari akar ke daun (daya hisap daun), mendinginkan daun, dan menjaga turgor sel. Sekitar 97-99% air yang diserap akar ditranspirasikan. Gutasi = keluarnya air cair dari tepi daun (bukan uap).",
+      },
+      {
+        pertanyaan: "DNA terdapat di dalam sel tepatnya di...",
+        pilihan: ["Sitoplasma", "Membran sel", "Nukleus (inti sel)", "Ribosom"],
+        jawaban: "Nukleus (inti sel)",
+        penjelasan:
+          "DNA (asam deoksiribonukleat) tersimpan dalam nukleus (inti sel) dalam bentuk kromosom. DNA mengandung instruksi genetik untuk semua aktivitas sel. Manusia memiliki 46 kromosom (23 pasang) di setiap sel tubuh. Selain di nukleus, sedikit DNA juga ada di mitokondria dan kloroplas.",
+      },
+      {
+        pertanyaan: "Golongan darah seseorang ditentukan oleh...",
+        pilihan: [
+          "Warna kulit",
+          "Antigen di permukaan sel darah merah",
+          "Ukuran sel darah merah",
+          "Jumlah sel darah putih",
+        ],
+        jawaban: "Antigen di permukaan sel darah merah",
+        penjelasan:
+          "Sistem golongan darah ABO ditentukan oleh antigen (protein) di permukaan eritrosit: Gol. A = antigen A, Gol. B = antigen B, Gol. AB = antigen A dan B, Gol. O = tidak ada antigen. Plasma darah mengandung antibodi terhadap antigen yang tidak dimiliki. Faktor Rhesus (Rh) ditentukan oleh antigen D.",
+      },
+    ],
+    SMA: [
+      {
+        pertanyaan: "Replikasi DNA terjadi pada fase...",
+        pilihan: ["Metafase", "Anafase", "Fase S (Sintesis)", "Profase"],
+        jawaban: "Fase S (Sintesis)",
+        penjelasan:
+          "Siklus sel: Interfase (G1 → S → G2) + Mitosis. Replikasi DNA terjadi pada fase S (Synthesis) dari interfase — sebelum pembelahan sel dimulai. Pada fase ini, DNA digandakan sehingga setiap sel anak mendapat salinan DNA yang lengkap. Enzim utama: DNA polimerase, helikase, ligase.",
+      },
+      {
+        pertanyaan:
+          "Prinsip dasar bioteknologi modern yang digunakan untuk menyisipkan gen asing ke organisme lain adalah...",
+        pilihan: [
+          "Kloning",
+          "Rekombinasi DNA",
+          "Mutasi spontan",
+          "Hibridisasi",
+        ],
+        jawaban: "Rekombinasi DNA",
+        penjelasan:
+          "Rekombinasi DNA (DNA rekombinan) = teknik menyambungkan DNA dari dua sumber berbeda menggunakan enzim restriksi (pemotong) dan DNA ligase (penyambung). Digunakan untuk: produksi insulin manusia dari bakteri E. coli, vaksin hepatitis B, tanaman transgenik, terapi gen.",
+      },
+      {
+        pertanyaan:
+          "Dalam percobaan Mendel dengan kacang polong, sifat biji keriput adalah sifat...",
+        pilihan: ["Dominan", "Kodominan", "Resesif", "Intermediet"],
+        jawaban: "Resesif",
+        penjelasan:
+          "Mendel menemukan sifat biji keriput (r) bersifat RESESIF terhadap biji bulat (R). Pada genotipe Rr (heterozigot), yang muncul hanya sifat bulat (dominan). Biji keriput hanya muncul pada genotipe rr (homozigot resesif). Rasio fenotipe F2 dari persilangan Rr × Rr = 3 bulat : 1 keriput.",
+      },
+      {
+        pertanyaan:
+          "Seleksi alam Darwin menyatakan bahwa organisme yang bertahan hidup adalah yang...",
+        pilihan: [
+          "Paling besar",
+          "Paling cepat",
+          "Paling kuat",
+          "Paling adaptif terhadap lingkungan",
+        ],
+        jawaban: "Paling adaptif terhadap lingkungan",
+        penjelasan:
+          "Seleksi alam ('survival of the fittest'): organisme dengan variasi yang lebih sesuai dengan lingkungannya lebih mungkin bertahan dan bereproduksi, mewariskan sifat menguntungkan ke keturunan. 'Fittest' bukan berarti terkuat/terbesar, tapi paling fit/sesuai dengan lingkungannya. Contoh: bunglon yang warnanya mirip lingkungan lebih sulit dimangsa.",
+      },
+      {
+        pertanyaan: "Mekanisme imunitas spesifik melibatkan sel...",
+        pilihan: [
+          "Eritrosit dan trombosit",
+          "Limfosit T dan B",
+          "Neutrofil dan basofil",
+          "Monosit dan eosinofil",
+        ],
+        jawaban: "Limfosit T dan B",
+        penjelasan:
+          "Imunitas spesifik (adaptif) melibatkan: Limfosit T (sel T) = imunitas seluler, membunuh sel terinfeksi langsung. Limfosit B (sel B) = imunitas humoral, memproduksi antibodi. Keduanya memiliki memori imunologis — inilah dasar vaksinasi. Imunitas non-spesifik (bawaan) = neutrofil, makrofag, NK cell.",
+      },
+      {
+        pertanyaan:
+          "Proses evolusi yang terjadi saat populasi kecil terpisah dari populasi induk dan frekuensi gennya berubah secara acak disebut...",
+        pilihan: [
+          "Seleksi alam",
+          "Mutasi gen",
+          "Genetic drift (hanyutan genetik)",
+          "Aliran gen",
+        ],
+        jawaban: "Genetic drift (hanyutan genetik)",
+        penjelasan:
+          "Genetic drift = perubahan frekuensi alel secara acak di populasi kecil, tidak bergantung pada nilai adaptifnya. Efek bottleneck = populasi tiba-tiba mengecil (bencana). Efek founder = sekelompok kecil individu mendirikan populasi baru. Genetic drift dapat menyebabkan kepunahan alel atau fiksasi alel yang kebetulan tidak menguntungkan.",
+      },
+      {
+        pertanyaan:
+          "Enzim yang berperan memotong DNA pada urutan spesifik dalam teknik rekayasa genetika disebut...",
+        pilihan: [
+          "DNA ligase",
+          "DNA polimerase",
+          "Enzim restriksi",
+          "RNA polimerase",
+        ],
+        jawaban: "Enzim restriksi",
+        penjelasan:
+          "Enzim restriksi (restriction endonuclease) adalah 'gunting molekuler' yang memotong DNA pada urutan basa spesifik (palindrom). Ditemukan pada bakteri sebagai pertahanan terhadap virus. Ada ratusan jenis enzim restriksi berbeda. DNA ligase adalah 'lem molekuler' yang menyambungkan potongan DNA. Keduanya esensial dalam rekayasa genetika.",
+      },
+    ],
+  },
+  Kesehatan: {
+    SD: [
+      {
+        pertanyaan: "Berapa kali sebaiknya kita menyikat gigi dalam sehari?",
+        pilihan: ["1 kali", "2 kali", "4 kali", "6 kali"],
+        jawaban: "2 kali",
+        penjelasan:
+          "Dokter gigi menyarankan menyikat gigi minimal 2 kali sehari — pagi setelah sarapan dan malam sebelum tidur. Menyikat gigi sebelum tidur sangat penting karena bakteri di mulut sangat aktif berkembang biak saat kita tidur. Gunakan pasta gigi berfluoride dan sikat selama 2 menit.",
+      },
+      {
+        pertanyaan:
+          "Zat gizi yang berfungsi sebagai sumber energi utama tubuh adalah...",
+        pilihan: ["Vitamin", "Mineral", "Karbohidrat", "Air"],
+        jawaban: "Karbohidrat",
+        penjelasan:
+          "Karbohidrat adalah sumber energi utama dan tercepat bagi tubuh. Setelah dicerna, karbohidrat diubah menjadi glukosa yang digunakan sel untuk menghasilkan energi. Sumber karbohidrat: nasi, roti, mie, kentang, jagung. Tanpa karbohidrat cukup, tubuh akan terasa lemas dan tidak bertenaga.",
+      },
+      {
+        pertanyaan: "Mencuci tangan yang benar menggunakan...",
+        pilihan: [
+          "Air saja",
+          "Sabun dan air mengalir",
+          "Tisu basah saja",
+          "Hand sanitizer saja",
+        ],
+        jawaban: "Sabun dan air mengalir",
+        penjelasan:
+          "Mencuci tangan yang efektif menggunakan sabun dan air mengalir selama minimal 20 detik. Sabun memecah lapisan lemak pada virus dan bakteri sehingga mudah terbilas. Waktu cuci tangan penting: sebelum makan, setelah ke toilet, setelah batuk/bersin, dan setelah memegang benda kotor.",
+      },
+      {
+        pertanyaan:
+          "Organ yang berfungsi memompa darah ke seluruh tubuh adalah...",
+        pilihan: ["Paru-paru", "Hati", "Ginjal", "Jantung"],
+        jawaban: "Jantung",
+        penjelasan:
+          "Jantung adalah pompa otot yang bekerja tanpa henti memompa darah ke seluruh tubuh. Jantung berdetak sekitar 60-100 kali per menit atau 100.000 kali per hari. Olahraga rutin memperkuat otot jantung. Jaga kesehatan jantung dengan gaya hidup aktif, makan sehat, dan hindari rokok.",
+      },
+      {
+        pertanyaan:
+          "Berapa liter air yang sebaiknya diminum orang dewasa setiap hari?",
+        pilihan: ["0,5 liter", "1 liter", "2 liter", "5 liter"],
+        jawaban: "2 liter",
+        penjelasan:
+          "Tubuh membutuhkan sekitar 2 liter (8 gelas) air per hari untuk orang dewasa — lebih banyak jika beraktivitas fisik atau cuaca panas. Air penting untuk: mengangkut nutrisi, mengatur suhu tubuh, membuang racun melalui urin, dan menjaga fungsi organ. Tanda kurang minum: urin berwarna gelap, pusing, lemas.",
+      },
+      {
+        pertanyaan:
+          "Kebiasaan yang baik untuk menjaga kesehatan mata adalah...",
+        pilihan: [
+          "Membaca sambil tiduran",
+          "Membaca di tempat gelap",
+          "Istirahatkan mata setiap 20 menit saat menatap layar",
+          "Menyalakan layar dengan kecerahan maksimal",
+        ],
+        jawaban: "Istirahatkan mata setiap 20 menit saat menatap layar",
+        penjelasan:
+          "Aturan 20-20-20: setiap 20 menit menatap layar, alihkan pandangan ke benda berjarak 20 kaki (6 meter) selama 20 detik. Ini mengurangi kelelahan mata digital. Tips lain: atur kecerahan layar, jaga jarak baca 30-40 cm, dan cukupi asupan vitamin A (wortel, bayam) untuk kesehatan mata.",
+      },
+      {
+        pertanyaan:
+          "Manfaat utama tidur yang cukup (8 jam) bagi anak-anak adalah...",
+        pilihan: [
+          "Membuat lebih gemuk",
+          "Membantu pertumbuhan dan pemulihan tubuh",
+          "Membuat malas belajar",
+          "Menurunkan konsentrasi",
+        ],
+        jawaban: "Membantu pertumbuhan dan pemulihan tubuh",
+        penjelasan:
+          "Saat tidur, tubuh memproduksi hormon pertumbuhan (growth hormone) secara optimal, memperbaiki sel yang rusak, mengkonsolidasikan memori, dan memulihkan energi. Anak usia 6-12 tahun butuh 9-12 jam tidur, remaja 8-10 jam, dewasa 7-9 jam. Kurang tidur mengganggu konsentrasi, mood, dan imunitas.",
+      },
+    ],
+    SMP: [
+      {
+        pertanyaan:
+          "Indeks Massa Tubuh (IMT) normal untuk orang dewasa berada di rentang...",
+        pilihan: ["10-17", "18,5-24,9", "25-30", "30-40"],
+        jawaban: "18,5-24,9",
+        penjelasan:
+          "IMT = berat (kg) / tinggi² (m²). Kategori: <18,5 = kekurangan berat badan, 18,5-24,9 = normal/ideal, 25-29,9 = kelebihan berat badan (overweight), ≥30 = obesitas. IMT normal penting untuk mengurangi risiko penyakit jantung, diabetes, dan hipertensi. Namun IMT tidak memperhitungkan komposisi otot vs lemak.",
+      },
+      {
+        pertanyaan:
+          "Penyakit yang disebabkan oleh kekurangan vitamin C adalah...",
+        pilihan: ["Rakhitis", "Anemia", "Skorbut", "Gondok"],
+        jawaban: "Skorbut",
+        penjelasan:
+          "Skorbut (scurvy) disebabkan kekurangan vitamin C (asam askorbat). Gejala: gusi berdarah, luka susah sembuh, kelelahan, nyeri sendi. Vitamin C penting untuk sintesis kolagen dan imunitas. Sumber: jeruk, jambu biji, kiwi, paprika. Rakhitis = kekurangan vitamin D. Anemia = kekurangan zat besi. Gondok = kekurangan yodium.",
+      },
+      {
+        pertanyaan:
+          "Penyakit tidak menular yang ditandai dengan kadar gula darah tinggi disebut...",
+        pilihan: ["Hipertensi", "Diabetes Mellitus", "Asma", "TBC"],
+        jawaban: "Diabetes Mellitus",
+        penjelasan:
+          "Diabetes Mellitus adalah kondisi kadar glukosa darah tinggi akibat kekurangan insulin atau resistensi insulin. Tipe 1 = autoimun (pankreas tidak memproduksi insulin). Tipe 2 = gaya hidup (paling umum). Gejala: sering haus, sering buang air kecil, lemas, luka lambat sembuh. Pencegahan: olahraga rutin, makan sehat, hindari gula berlebih.",
+      },
+      {
+        pertanyaan:
+          "Sistem imun tubuh yang pertama bereaksi terhadap patogen disebut imunitas...",
+        pilihan: [
+          "Spesifik/adaptif",
+          "Non-spesifik/bawaan",
+          "Pasif",
+          "Aktif buatan",
+        ],
+        jawaban: "Non-spesifik/bawaan",
+        penjelasan:
+          "Imunitas non-spesifik (innate immunity) adalah pertahanan pertama yang langsung bereaksi terhadap semua patogen tanpa mengenalnya secara khusus. Komponen: kulit, mukosa, sel NK, neutrofil, makrofag, dan inflamasi. Imunitas spesifik (adaptif) bekerja lebih lambat tapi lebih presisi — melibatkan limfosit T dan B.",
+      },
+      {
+        pertanyaan:
+          "Rokok berbahaya bagi kesehatan terutama karena mengandung...",
+        pilihan: ["Kafein", "Nikotin dan tar", "Alkohol", "Gula berlebih"],
+        jawaban: "Nikotin dan tar",
+        penjelasan:
+          "Rokok mengandung 7.000+ zat kimia berbahaya. Yang paling berbahaya: nikotin (adiktif, merusak jantung & pembuluh darah), tar (menyebabkan kanker paru-paru), karbon monoksida (mengurangi kemampuan darah membawa oksigen). Merokok menyebabkan: kanker, penyakit jantung, stroke, PPOK, dan menurunkan imunitas.",
+      },
+      {
+        pertanyaan: "Vaksinasi bekerja dengan cara...",
+        pilihan: [
+          "Membunuh semua bakteri di tubuh",
+          "Melatih sistem imun mengenali patogen tanpa menyebabkan penyakit",
+          "Memberikan antibodi siap pakai dari luar",
+          "Meningkatkan suhu tubuh",
+        ],
+        jawaban:
+          "Melatih sistem imun mengenali patogen tanpa menyebabkan penyakit",
+        penjelasan:
+          "Vaksin mengandung patogen yang dilemahkan/dimatikan atau bagian dari patogen. Saat divaksin, sistem imun belajar mengenali dan membentuk memori imunologis tanpa mengalami sakit parah. Jika terpapar patogen aslinya, tubuh sudah siap merespons cepat. Inilah dasar imunitas aktif buatan (kekebalan buatan).",
+      },
+      {
+        pertanyaan: "Fungsi utama ginjal dalam tubuh adalah...",
+        pilihan: [
+          "Memompa darah",
+          "Menyaring darah dan menghasilkan urin",
+          "Mencerna makanan",
+          "Menghasilkan hormon insulin",
+        ],
+        jawaban: "Menyaring darah dan menghasilkan urin",
+        penjelasan:
+          "Ginjal menyaring sekitar 180 liter darah per hari, membuang zat sisa metabolisme (urea, kreatinin, asam urat) dan kelebihan air/garam sebagai urin. Fungsi lain: mengatur tekanan darah, keseimbangan elektrolit, dan memproduksi eritropoietin (hormon pembentuk sel darah merah). Minum cukup air penting untuk menjaga fungsi ginjal.",
+      },
+    ],
+    SMA: [
+      {
+        pertanyaan:
+          "Mekanisme penyebaran penyakit COVID-19 terutama melalui...",
+        pilihan: [
+          "Makanan dan minuman",
+          "Gigitan nyamuk",
+          "Droplet dan aerosol dari saluran napas",
+          "Kontak kulit langsung",
+        ],
+        jawaban: "Droplet dan aerosol dari saluran napas",
+        penjelasan:
+          "COVID-19 (SARS-CoV-2) terutama menyebar melalui droplet (tetesan besar) dan aerosol (partikel kecil) yang dikeluarkan saat batuk, bersin, berbicara, atau bernapas. Itulah mengapa masker, ventilasi udara, dan menjaga jarak efektif mencegah penularan. Penularan melalui permukaan benda (fomit) juga bisa tapi lebih jarang.",
+      },
+      {
+        pertanyaan: "Tekanan darah normal untuk orang dewasa adalah...",
+        pilihan: ["80/60 mmHg", "120/80 mmHg", "160/100 mmHg", "200/120 mmHg"],
+        jawaban: "120/80 mmHg",
+        penjelasan:
+          "Tekanan darah normal: sistolik (saat jantung memompa) 90-120 mmHg / diastolik (saat jantung istirahat) 60-80 mmHg. Hipertensi = ≥130/80 mmHg. Hipotensi = <90/60 mmHg. Hipertensi disebut 'silent killer' karena sering tanpa gejala tapi meningkatkan risiko stroke, serangan jantung, dan gagal ginjal.",
+      },
+      {
+        pertanyaan:
+          "Konsep 'One Health' dalam kesehatan global menyatakan bahwa...",
+        pilihan: [
+          "Satu obat bisa menyembuhkan semua penyakit",
+          "Kesehatan manusia, hewan, dan lingkungan saling terhubung",
+          "Satu negara harus memimpin kesehatan dunia",
+          "Satu jenis vaksin cukup untuk semua penyakit",
+        ],
+        jawaban: "Kesehatan manusia, hewan, dan lingkungan saling terhubung",
+        penjelasan:
+          "One Health = pendekatan kolaboratif yang mengakui bahwa kesehatan manusia, hewan, dan ekosistem saling bergantung. Sekitar 60% penyakit menular pada manusia berasal dari hewan (zoonosis): COVID-19, Ebola, flu burung, rabies. Kerusakan lingkungan dan kontak manusia-satwa liar meningkatkan risiko pandemi baru.",
+      },
+      {
+        pertanyaan:
+          "Antibiotik efektif untuk mengobati infeksi yang disebabkan oleh...",
+        pilihan: ["Virus", "Bakteri", "Jamur", "Parasit"],
+        jawaban: "Bakteri",
+        penjelasan:
+          "Antibiotik HANYA efektif melawan bakteri — tidak berguna untuk infeksi virus (flu, COVID-19, herpes). Penggunaan antibiotik tidak tepat menyebabkan resistensi antibiotik (AMR), di mana bakteri bermutasi menjadi kebal. AMR adalah ancaman kesehatan global. Selalu gunakan antibiotik sesuai resep dokter dan habiskan dosisnya.",
+      },
+      {
+        pertanyaan:
+          "Faktor risiko utama penyakit kardiovaskular yang DAPAT dimodifikasi adalah...",
+        pilihan: [
+          "Usia dan jenis kelamin",
+          "Riwayat keluarga/genetik",
+          "Merokok, hipertensi, dan kolesterol tinggi",
+          "Ras dan etnis",
+        ],
+        jawaban: "Merokok, hipertensi, dan kolesterol tinggi",
+        penjelasan:
+          "Faktor risiko kardiovaskular: Tidak dapat dimodifikasi = usia, jenis kelamin, genetik, ras. Dapat dimodifikasi = merokok, hipertensi, dislipidemia (kolesterol), diabetes, obesitas, kurang olahraga, stres. Dengan mengubah gaya hidup (berhenti merokok, olahraga, diet sehat), risiko penyakit jantung dapat dikurangi hingga 80%.",
+      },
+      {
+        pertanyaan:
+          "Gangguan kesehatan mental yang ditandai dengan perasaan sedih berkepanjangan, kehilangan minat, dan gangguan fungsi sehari-hari disebut...",
+        pilihan: ["Stres akut", "Kecemasan", "Depresi mayor", "Burnout"],
+        jawaban: "Depresi mayor",
+        penjelasan:
+          "Depresi mayor (Major Depressive Disorder) = gangguan mood serius ditandai: perasaan sedih/kosong ≥2 minggu, kehilangan minat pada hal yang dulunya menyenangkan, gangguan tidur/nafsu makan, kelelahan, sulit konsentrasi, dan pikiran tentang kematian. Bukan sekadar 'kesedihan biasa' — membutuhkan penanganan profesional (terapi + obat jika perlu).",
+      },
+      {
+        pertanyaan:
+          "Prinsip pencegahan penyakit dalam kesehatan masyarakat terdiri dari tiga tingkatan, yaitu...",
+        pilihan: [
+          "Primer, Sekunder, Tersier",
+          "Aktif, Pasif, Herd",
+          "Individual, Kelompok, Nasional",
+          "Fisik, Mental, Sosial",
+        ],
+        jawaban: "Primer, Sekunder, Tersier",
+        penjelasan:
+          "3 tingkat pencegahan: Primer = mencegah sebelum penyakit terjadi (vaksinasi, promosi hidup sehat, sanitasi). Sekunder = deteksi dini dan pengobatan cepat (skrining, pemeriksaan rutin). Tersier = membatasi kecacatan dan rehabilitasi pada penyakit yang sudah ada (fisioterapi, manajemen penyakit kronis). Pencegahan primer selalu lebih efektif dan murah dari pengobatan.",
+      },
+    ],
+  },
 };
 
 // ===== SOUND EFFECTS (Web Audio API) =====
