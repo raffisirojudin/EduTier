@@ -82,12 +82,55 @@ body {
   visibility: hidden;
   pointer-events: none;
 }
+.loading-image {
+  width: 90px; /* Ukuran lebar lingkaran */
+  height: 90px; /* Ukuran tinggi wajib sama agar bulat sempurna */
+  display: block;
+  margin: 0 auto 20px; /* Jarak otomatis ke tengah dan memberi space ke teks EduTier */
+  object-fit: contain; /* Memastikan logo di dalam tidak terpotong atau gepeng */
 
+  /* Membuat efek lingkaran putih */
+  border-radius: 50%;
+  background-color: #ffffff; /* Warna putih bersih untuk latar lingkaran */
+  padding: 8px; /* Memberikan ruang/napas di dalam lingkaran agar logo tidak mentok ke pinggir */
+
+  /* Efek bayangan halus agar terlihat modern dan timbul */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
 .loading-content {
   text-align: center;
   color: white;
 }
+/* Mengatur tampilan logo sekolah di halaman utama */
+.home-school-logo {
+  width: 45px; /* Ukuran pas untuk area header menu */
+  height: auto; /* Menjaga proporsi gambar */
+  object-fit: contain;
+  margin-right: 12px; /* Memberi jarak antara logo sekolah dengan ikon topi toga */
+}
+/* Mengatur tampilan logo sekolah di halaman utama agar bulat */
+.home-school-logo {
+  width: 50px; /* Ukuran lingkaran sedikit lebih besar agar proporsional */
+  height: 50px; /* Wajib sama dengan width agar bulat sempurna */
+  object-fit: contain; /* Logo sekolah tetap utuh di dalam, tidak terpotong */
+  margin-right: 15px; /* Memberi jarak ke logo EduTier */
 
+  /* Membuat latar lingkaran putih */
+  border-radius: 50%;
+  background-color: #ffffff; /* Latar putih bersih */
+  padding: 6px; /* Memberi jarak napas agar logo tidak menempel ke pinggir lingkaran */
+
+  /* Efek bayangan halus yang konsisten dengan desain menu */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  /* Tambahan agar elemen sejajar sempurna */
+  display: block;
+}
+/* Memastikan semua elemen di dalam logo sejajar secara vertikal */
+.home-header .logo {
+  display: flex;
+  align-items: center;
+}
 .loading-logo {
   display: flex;
   align-items: center;
@@ -1505,4 +1548,21 @@ svg defs {
 /* Separator pertama tidak perlu border atas */
 .ig-separator:first-child {
   border-top: none;
+}
+/* Mengatur ukuran dan tampilan logo agar proporsional */
+.loading-image {
+  width: 80px; /* Atur lebar logo sesuai keinginan */
+  height: auto; /* Menjaga proporsi gambar agar tidak gepeng */
+  display: block; /* Membuatnya jadi block element */
+  margin: 0 auto 15px; /* Auto kiri-kanan agar ke tengah, 15px jarak ke teks di bawahnya */
+  object-fit: contain;
+}
+
+/* Memastikan pembungkus logo mengarah ke tengah */
+.loading-logo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
