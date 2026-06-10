@@ -1218,6 +1218,17 @@ svg defs {
     font-size: 10px;
     padding: 5px 10px;
   }
+  /* Perkecil tombol IG di HP */
+  .ig-btn {
+    font-size: 12px;
+    padding: 10px 14px;
+    gap: 6px;
+  }
+
+  .ig-wrapper {
+    bottom: 16px;
+    right: 14px;
+  }
 
   /* Grid kategori: 3 kolom agar tidak terlalu sempit */
   .category-grid {
@@ -1414,6 +1425,18 @@ svg defs {
     min-width: 80px;
     flex: 1;
   }
+}
+/* Beri ruang di bawah agar tombol IG tidak menutupi konten */
+#page-home {
+  padding-bottom: 100px;
+}
+
+#page-kuis {
+  padding-bottom: 100px;
+}
+
+#page-hasil {
+  padding-bottom: 100px;
 }
 /* ===== INSTAGRAM DROPDOWN ===== */
 .ig-wrapper {
